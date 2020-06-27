@@ -1,0 +1,92 @@
+.main-div {
+  width: 600px;
+  background-color: #343a40;
+  height: 100%;
+  border-radius: 10px;
+  margin: 20px auto 0;
+  padding: 30px 0;
+}
+
+.main-div h1 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.input-field input {
+  height: 60px;
+  margin: 0 auto 20px;
+  display: block;
+  padding: 10px;
+  text-align: right;
+  background-color: #a7a7a6;
+  border-radius: 5px;
+  font-size: 30px;
+  box-shadow: 0px 5px 15px 2px #888888 inset;
+  width: 90%;
+}
+
+.btn {
+  box-shadow: 0px 5px 10px #222222;
+}
+
+.btn:focus,
+.input-field input:focus {
+  outline: none;
+  box-shadow: none !important;
+}
+
+#button-maindiv {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.button-row div {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  margin: 5px;
+}
+
+.button-row .btn {
+  width: 60px;
+  height: 60px;
+  background-color: #636363;
+}
+
+.button-row .btn:hover {
+  background-color: #858585;
+  color: white !important;
+}
+
+.button-orange {
+  background-color: #ff8400 !important;
+}
+
+.button-orange:hover {
+  background-color: #ffa647 !important;
+}
+
+.button-blue {
+  background-color: #0099ff !important;
+}
+
+.button-blue:hover {
+  background-color: #33adff !important;
+}
+
+.button-off {
+  background-color: #454545 !important;
+}
+
+.mention {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mention h6 {
+  font-size: x-large;
+  text-align: center;
+}
